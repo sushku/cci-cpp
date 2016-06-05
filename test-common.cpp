@@ -11,7 +11,7 @@ extern ListNode* createLinkedList(vector<int>);
 extern void printLinkedList(ListNode*);
 
 int main() {
-    string arrTree[] = {"1", "2", "3", "4", "5"};
+    string arrTree[] = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "1", "2", "3", "4", "5", "6", "7"};
     vector<string> vecTree(arrTree, arrTree + (sizeof(arrTree) / sizeof(arrTree[0])));
 
     TreeNode* tree = createBinaryTree(vecTree);
